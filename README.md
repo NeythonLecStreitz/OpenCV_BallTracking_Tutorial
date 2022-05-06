@@ -4,7 +4,7 @@ The following script is meant to detect, localize, and track a colored ball usin
 As output, the script show the screen with a detected ball and a contrail following the movement of the ball.
 Additionally, the script generates a .svg file with a plot of Theta vs. Time (the ball's angular velocity) and a .csv file with the ball's X and Y coordinates plus time and theta values.
 
-To read the writeup, either open the OpenCV_BallTracking_Tutorial .pdf file or to compile as a LateX document, use the folder.
+To read the writeup, either open the OpenCV_BallTracking_Tutorial .pdf file or to compile as a LateX document, use the OpenCV Ball Tracking Writeup LateX folder.
 
 ### Requirements and Libraries
 The libraries required for this tutorial include NumPy, OpenCV, Matplotlib, Pandas, and imutils.
