@@ -9,11 +9,11 @@ The libraries required for this tutorial include NumPy, OpenCV, Matplotlib, Pand
 Exact requirements are specified in the requirements.txt file.
 
 ### Running
-**Video Options:**
+**Video Options:** <br>
 To run the script using a built in webcam, use: ```python OpenCV_BallTracker.py```. <br>
 To run the script using a pre-recorded .mp4 video, use: ```python OpenCV_BallTracker.py --video file.mp4```.
 
-**Buffer Options:**
+**Buffer Options:** <br>
 To change the size of the buffer (length of contrail), use: ```python OpenCV_BallTracker.py --buffer buffer_int```. <br>
 The default buffer size is set to 64.
 A larger buffer size creates a longer contrail and vice-versa.
@@ -21,6 +21,6 @@ A larger buffer size creates a longer contrail and vice-versa.
 To quit running while in webcam mode, press 'q'.
 If a pre-recorded video is supplied, running will end after video end, but 'q' still works.
 
-### Outputs
+### Outputs <br>
 Succesfully running the script generates a .svg file plotting Theta vs. Time and a .cvs file with the ball's X and Y coordinates plus time and theta values.
 To change where these files are written, go to bottom of OpenCV_BallTracker.py file and change the file path in the Data_df.to_csv() method and in the plt.savefig() method.
