@@ -10,11 +10,11 @@ Exact requirements are specified in the requirements.txt file.
 
 ### Running
 **Video Options:**
-To run the script using a built in webcam, use: ```python OpenCV_BallTracker.py```.
+To run the script using a built in webcam, use: ```python OpenCV_BallTracker.py```. <br>
 To run the script using a pre-recorded .mp4 video, use: ```python OpenCV_BallTracker.py --video file.mp4```.
 
 **Buffer Options:**
-To change the size of the buffer (length of contrail), use: ```python OpenCV_BallTracker.py --buffer buffer_int```.
+To change the size of the buffer (length of contrail), use: ```python OpenCV_BallTracker.py --buffer buffer_int```. <br>
 The default buffer size is set to 64.
 A larger buffer size creates a longer contrail and vice-versa.
 
